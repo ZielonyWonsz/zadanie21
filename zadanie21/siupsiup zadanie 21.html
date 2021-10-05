@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        function PoleIObwod_Sta() {
+            var D = prompt("Podaj długość D", "");
+            var X = prompt("Podaj długość X", "");
+            var pitagoras=0;
+                    A=parseFloat(D);
+                    B=parseFloat(X);
+
+            suma1 = Math.pow(A,2);
+            suma2 = Math.pow(B,2);
+            suma3 = Math.abs(suma1*suma2);
+            pitagoras = Math.sqrt(suma3);
+            document.write("Wprowadzone dane : " + A + " oraz " + B + " <br> ");
+            document.write("<br> Wyniki : <br> Długość drabiny : " + pitagoras + "");
+        }
+    </script>
+
+    <h1>Trudna drabina zadanie 21</h1>
+
+    <input type="button" name="przycisk aktywacyjny" value="Oblicz" Onclick="PoleIObwod_Sta()">
+<br> <br> <br>
+
+</body>
+
+</html>
